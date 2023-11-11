@@ -28,7 +28,7 @@ const GifSearch: React.FC = () => {
   const apiKey = 'GlVGYHkr3WSBnllca54iNt0yFbjz7L65';
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [totalPages, setTotalPages] = useState<number>(1);
-  const gifsPerPage = 10;
+  const gifsPerPage = 6;
 
   const handleSearch = (newQuery: string) => {
     setQuery(newQuery);
