@@ -25,7 +25,7 @@ const GifSearch: React.FC = () => {
   const [gifs, setGifs] = useState<Gif[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
 
-  const apiKey = '9Ixlv3DWC1biJRI57RanyL7RTbfzz0o7';
+  const apiKey = 'GlVGYHkr3WSBnllca54iNt0yFbjz7L65';
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [totalPages, setTotalPages] = useState<number>(1);
   const gifsPerPage = 10;
